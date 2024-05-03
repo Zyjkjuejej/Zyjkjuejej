@@ -110,5 +110,5 @@ $ROOTFS_DIR/usr/local/bin/proot \
 --bind=/proc \
 --bind=/dev \
 --bind=/sys \
---bind=/tmp \
+--bind=/home/container/tmp \
 /bin/sh
